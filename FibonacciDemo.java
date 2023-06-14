@@ -1,14 +1,12 @@
 
-package fibonaccidemo;
+package day9;
 
 import java.util.Scanner;
 
 
 public class FibonacciDemo {
-
-    
     public static void main(String[] args) {
-         Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
         System.out.println("Enter any number: ");
        int n = input.nextInt();
@@ -27,6 +25,9 @@ public class FibonacciDemo {
             second = fibo;
             
         }
+        
+       
+        
     }
     
 }
